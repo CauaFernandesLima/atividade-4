@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: none;
+
+    /*Reset css*/
+}
+
+p{
+    color: #0000FF;
+    font-size: 40px;
+}
+
+.c1{
+    font-size: 50%;
+}
+
+.c2{
+    color: #FF0000;
+}
+
+h1{
+    display: inline-block; 
+    /*isso aqui faz o trem ficar em linha ao inves de box*/
+}
+
+h2{
+    display: inline-block;
+}
+
+div{
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    display: inline-block;
+}
+
+/*da para definir margem para os quatro lados por exemplo margin: 10px 40px 20px 2px ou é so usar margin auto*/
+/*margin é borda externa e padding interna*/
+/*a:visited é pra quando o link ja foi visitado*/
